@@ -329,6 +329,10 @@ negocio.
         END $$
         DELIMITER ;
         ```
+    - **Ejemplo de uso:**
+      ```sql
+        call AgregarCliente("Danyelle Giraldo", "Danyellesgiraldoj@gmail.com", "3104819492", '2024-06-12');
+      ``` 
     - **Explicación:**
         Este procedimiento inserta un nuevo cliente en la tabla `clientes` utilizando los parámetros proporcionados.
 
@@ -364,6 +368,7 @@ negocio.
         |         2 |       5 | Tarta de Queso |        1 |            7.50 |
         +-----------+---------+----------------+----------+-----------------+
       ```
+      
     - **Explicación:**
         Este procedimiento recupera los detalles de un pedido específico, incluyendo el nombre del menú, la cantidad y el precio unitario de cada ítem.
 
@@ -384,7 +389,10 @@ negocio.
         END $$
         DELIMITER ;
         ```
-        
+   - **Ejemplo de uso:**
+      ```sql
+        call ActualizarPrecioMenu(4, 980.00);
+      ``` 
     - **Explicación:**
         Este procedimiento actualiza el precio de un menú específico en la tabla `menus` utilizando el ID del menú y el nuevo precio proporcionado.
 
