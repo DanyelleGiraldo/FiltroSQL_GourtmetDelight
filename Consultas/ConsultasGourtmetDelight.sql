@@ -129,7 +129,7 @@ menú, cantidad y precio unitario.
 	DELIMITER ;
 	
 -- ejemplo de uso
-call ObtenerDetallesPedido(2)
+call ObtenerDetallesPedido(2);
 
 /*
 Crear un procedimiento almacenado para actualizar el precio de un menú
