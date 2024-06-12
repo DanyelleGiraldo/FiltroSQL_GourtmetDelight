@@ -145,7 +145,7 @@ negocio.
     - **Explicación:**
         Esta consulta obtiene el detalle de los pedidos, incluyendo el nombre del menú, la cantidad y el precio unitario, para el cliente 'Juan Perez'.
 
-## Procedimientos Almacenados SQL sobre una base de datos de restaurante
+## Procedimientos Almacenados 
 
 1. **Crear un procedimiento almacenado para agregar un nuevo cliente:**
     - **Enunciado:**
